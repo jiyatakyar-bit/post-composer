@@ -1,16 +1,88 @@
-# React + Vite
+# Post Composer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React.js based web application that allows users to compose and publish posts for different social media platforms with real-time validation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Create social media posts
+- Select a publishing platform
+- Live character counter
+- Platform-specific character limit validation
+- Upload media files
+- Display published posts
+- Responsive and user-friendly interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```
+post-composer
+│
+├── src
+│   ├── components
+│   │   ├── PostComposer.jsx
+│   │   └── PostComposer.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/jiyatakyar-bit/post-composer.git
+```
+
+2. Open the project folder
+
+```bash
+cd post-composer
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173/
+```
+
+## Learning Outcomes
+
+- Understanding React Components
+- Using `useState` for state management
+- Event handling in React
+- Conditional rendering
+- Form handling
+- Responsive UI development
+- Real-time validation
+
+## Author
+
+**Jiya Takyar**
+
+GitHub: https://github.com/jiyatakyar-bit
